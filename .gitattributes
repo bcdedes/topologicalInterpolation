@@ -1,0 +1,8 @@
+*.css linguist-detectable=false
+*.java linguist-detectable=false
+*.javascript linguist-detectable=false
+*.js linguist-detectable=false
+*.html linguist-detectable=false  
+*.xml linguist-detectable=false 
+*.c++ linguist-detectable=true
+*.matlab linguist-detectable=true 
