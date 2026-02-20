@@ -5,6 +5,7 @@ This program implements the topology based interpolation technique for utilizati
 B. Dedes, "Inverse distance weighted interpolation based on image topology for super-resolution," MSc Thesis, Dept. of Electrical and Electronics Eng., Anadolu Univ., Eskisehir, 2021. In the 
 work, Degree of connectedness map computation algorithms in the literature are revised to work on nonuniform data. Then, connectedness map properties in brightness and darkness topology are 
 exploited in order to improve the results of inverse distance weighting interpolation along the edges in super-resolution imaging.
+The full thesis document is available in this repository at [thesis.pdf](thesis.pdf).
 
 In the thesis, connectivity maps in each interpolation window are computed using an initial point inserted into triangulation. The value of this initial point is computed using linear 
 triangular interpolation. However, Subdiv2D class of OpenCV does not have a point deletion method, hence, any initial points inserted are left in the triangulation. To avoid this, connectivity 
